@@ -12,14 +12,16 @@ const Contact = () => {
             </Box>
 
 
-            <Box sx={{ width: '80%', height: '100%', margin: '60px auto' }}>
+            <Box sx={{ width: {xs:'95%',sm:'90%',md:'80%'}, height: '100%', margin: '60px auto' }}>
                 <Grid container>
-                    <Grid xs={6}>
-                        <img src={ContactUs} alt="" style={{ width: '80%', height: '600px', borderRadius: '10px' }} />
+                    <Grid xs={12}  sm={12} md={6}>
+
+                        <Box  component="img" src={ContactUs}  sx={{width:{xs:'100%',sm:'95%',md:'80%'}, margin:'auto', height:{ xs:'400px',sm:"400px",md:'600px'}, borderRadius: '10px'}} />
+                        
                     </Grid>
 
-                    <Grid xs={6}>
-                        <Box  sx={{padding:'40px'}}>
+                    <Grid xs={12}  sm={12} md={6}>
+                        <Box  sx={{padding:{xs:'20px',sm:'20px',md:'40px'}}}>
                             <Form />
                         </Box>
                     </Grid>

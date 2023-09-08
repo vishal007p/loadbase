@@ -42,6 +42,7 @@
    background-color: #000;
  }
 
+
  .logo img {
    width: 25%;
    height: 100%;
@@ -52,11 +53,20 @@
  }
 
 
+ .navbar .nevbarBtn{
+  background-color: #FFFF00;
+  color: #000; padding: 6px 30px;
+  border: none;
+  border-radius: 16px;
+ }
+ 
 
  .nav-elements ul {
    display: flex;
    justify-content: space-between;
    list-style-type: none;
+   color: #000;
+   padding: 20px;
  }
 
  .nav-elements ul li:not(:last-child) {
@@ -66,6 +76,7 @@
  .nav-elements ul a {
    font-size: 16px;
    font-weight: 400;
+ 
    color: white;
    text-decoration: none;
  }
@@ -285,16 +296,6 @@
  }
 
 
-
- /* --card --- */
-
- 
-
-
-
-
-
-
  /* Media Query For different screens */
  @media (min-width:320px) and (max-width:479px) {
 
@@ -390,11 +391,25 @@
      position: absolute;
      right: 0;
      top: 60px;
-     background-color: #fef7e5;
+     background-color: white;
      width: 0px;
      height: calc(100vh - 60px);
      transition: all 0.3s ease-in;
      overflow: hidden;
+
+   }
+
+   .nav-elements ul a{
+    color: black !important;
+   }
+
+   .nav-elements ul a:active{
+    color: #000;
+   }
+
+   .navbar .nevbarBtn{
+    margin-top: 20px;
+    padding: 6px 40px;
    }
 
    .nav-elements.active {
