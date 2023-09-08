@@ -1,7 +1,11 @@
-import Home from "../pages/Home";
-import About from "../pages/about/about";
-import Contact from "../pages/contact/contact";
-import TermAndCondition from "../pages/termAndCondition/termAndCondition";
+import { lazy } from "react";
+
+const Home = lazy(() => import('../pages/Home'));
+const About = lazy(() => import('../pages/about/about'));
+const Contact = lazy(() => import('../pages/contact/contact'));
+const TermAndCondition = lazy(() => import('../pages/termAndCondition/termAndCondition'));
+
+
 
 export const Router = [
 

@@ -1,5 +1,5 @@
 import { Box, Grid } from "@mui/material";
-import ContactUs from '../../assets/contactUs.jpg'
+import ContactUs from '../../assets/contactUs.webp'
 import Form from "../../Components/Form/Form";
 
 
