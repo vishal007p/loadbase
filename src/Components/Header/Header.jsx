@@ -6,8 +6,9 @@ import Logo from "../../assets/logo.webp";
 
 
 const Header = () => {
-    const [showNavbar, setShowNavbar] = React.useState(false);
 
+    const [showNavbar, setShowNavbar] = React.useState(false);
+ 
     const handleShowNavbar = () => {
         setShowNavbar(!showNavbar);
     };
@@ -33,22 +34,9 @@ const Header = () => {
                             <NavLink to="/Contact">Contact</NavLink>
                         </li>
                         <li>
-                            <NavLink to="/term-and-condition"> Term And Conditions</NavLink>
+                            <NavLink to="/term-and-condition"> Term And Conditions </NavLink>
                         </li>
-                        <NavLink to="/more">
-                            <button
-                                style={{
-                                    backgroundColor: "#FFFF00",
-                                    color: "black",
-                                    Padding: "10px 0px",
-                                    border: "none",
-                                    padding: "6px 30px",
-                                    borderRadius: "16px",
-                                }}
-                            >
-                                More
-                            </button>
-                        </NavLink>
+                      
                     </ul>
                 </div>
             </div>
