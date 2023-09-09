@@ -22,11 +22,11 @@ const Banner = () => {
                                 <Typography variant="h1" component="h2" sx={{ fontSize: '2.5rem', color: 'white', textAlign:{xs:'center',sm:'center',md:'left'} , fontWeight:'bold'}}>
                                     Welcome To  <TypeAnimation
                                         sequence={[
-                                            'LoadBase', // Types 'One'
+                                            'Load Base', // Types 'One'
                                             1000, // Waits 1s
-                                            'LoadBase', // Deletes 'One' and types 'Two'
+                                            'Load Base', // Deletes 'One' and types 'Two'
                                             2000, // Waits 2s
-                                            'LoadBase', // Types 'Three' without deleting 'Two'
+                                            'Load Base', // Types 'Three' without deleting 'Two'
                                             () => {
                                                 console.log('Sequence completed');
                                             },
@@ -43,10 +43,10 @@ const Banner = () => {
                                 </Typography>
                                 <Box sx={{ marginTop: '50px', display: 'flex', gap: '20px' }}>
                                     <Box>
-                                        <Button sx={{ backgroundColor: '#FFFF00', color: 'black', fontWeight: '600', padding: '8px 20px', borderRadius: '20px', display:'flex', alignItems:'center', gap:'10px' }}> <AndroidIcon sx={{width:'20px'}} />   Google Play</Button>
+                                       <a  href="https://play.google.com/store/apps/details?id=com.LaneToLaneCargoLLC.loadbaseapp"> <Button sx={{":hover":{backgroundColor:'#FFFF00'}, backgroundColor: '#FFFF00', color: 'black', fontWeight: '600', padding: '8px 20px', borderRadius: '20px', display:'flex', alignItems:'center', gap:'10px' }}> <AndroidIcon sx={{width:'20px'}} />   Google Play</Button></a>
                                     </Box>
                                     <Box>
-                                        <Button sx={{ backgroundColor: '#FFFF00', color: 'black', fontWeight: '600', padding: '8px 20px', borderRadius: '20px', display:'flex', alignItems:'center', gap:'10px' }}> <AppleIcon  sx={{width:'20px'}}/> App Store</Button>
+                                       <a href="https://apps.apple.com/us/app/load-base/id1642227374"> <Button sx={{ ":hover":{backgroundColor:'#FFFF00'},backgroundColor: '#FFFF00', color: 'black', fontWeight: '600', padding: '8px 20px', borderRadius: '20px', display:'flex', alignItems:'center', gap:'10px' }}> <AppleIcon  sx={{width:'20px'}}/> App Store</Button></a>
                                     </Box>
                                 </Box>
                             </Box>

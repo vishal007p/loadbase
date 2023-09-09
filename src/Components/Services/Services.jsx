@@ -8,7 +8,7 @@ import img4 from '../../assets/img4.webp';
 const sercice = [
     {
         id: 1,
-        img: img1,
+        img: img2,
         title: 'Load Boards',
         des: "Utilize our exclusive load board tab to find everyday loads for your Semi Trucks, Box Trucks, Hot Shots, and Cargo Vans."
     },
@@ -16,7 +16,7 @@ const sercice = [
 
     {
         id: 2,
-        img: img2,
+        img: img4,
         title: 'Available Dispatchers',
         des: "A freight dispatcher represents your trucking company in negotiating freight. They find new customers, book freight loads, complete paperwork and manage delivery schedules for you."
     },
@@ -24,7 +24,7 @@ const sercice = [
 
     {
         id: 3,
-        img: img3,
+        img: img1,
         title: 'Load Profit Calculator',
         des: "The drive time calculator tells you how long your trip will take and what is the estimated time of arrival at the destination point"
     },
@@ -33,7 +33,7 @@ const sercice = [
     
     {
         id: 4,
-        img: img4,
+        img: img3,
         title: 'Drive time Calculato',
         des: "The drive time calculator tells you how long your trip will take and what is the estimated time of arrival at the destination point"
     },

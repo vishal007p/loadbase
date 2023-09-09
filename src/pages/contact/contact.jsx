@@ -1,14 +1,22 @@
-import { Box, Grid } from "@mui/material";
+import { Box, Grid, Typography } from "@mui/material";
 import ContactUs from '../../assets/contactUs.webp'
 import Form from "../../Components/Form/Form";
+import { useEffect } from "react";
 
 
 
 const Contact = () => {
+    useEffect(() => {
+        window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+    }, []);
     return (
         <>
             <Box sx={{ width: '100%', background: '#FFFF00', height: '100%', textAlign: 'center', padding: '60px 0px' }}>
-                <h1 style={{ fontSize: '5rem' }}>Contact Us</h1>
+
+            <Typography variant="h1" sx={{ fontSize: { xs: '2rem', sm: '2.5rem', md: '5rem' }, fontWeight: '600', textAlign:'center' }} >
+            Contact Us
+            </Typography>
+               
             </Box>
 
 

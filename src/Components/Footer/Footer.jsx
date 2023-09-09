@@ -1,4 +1,5 @@
- import Logo from '../../assets/logo.webp'
+ import { NavLink } from 'react-router-dom'
+import Logo from '../../assets/logo.webp'
 
 const Footer = () => {
   return (
@@ -22,88 +23,23 @@ const Footer = () => {
                 <img src={Logo} alt="" style={{width:'40%', height:'100%'}} />
               </a>
             </div>
-            <div className="footer-menu">
-              <h2 className="footer-menu-name">Get Started</h2>
-              <ul id="menu-get-started" className="footer-menu-list">
-                <li className="menu-item menu-item-type-post_type menu-item-object-product">
-                  <a href="#">Start</a>
-                </li>
-                <li className="menu-item menu-item-type-post_type menu-item-object-product">
-                  <a href="#">Documentation</a>
-                </li>
-                <li className="menu-item menu-item-type-post_type menu-item-object-product">
-                  <a href="#">Installation</a>
-                </li>
-              </ul>
-            </div>
           </div>
           <div className="footer-content-column">
-            <div className="footer-menu">
-              <h2 className="footer-menu-name">Company</h2>
-              <ul id="menu-company" className="footer-menu-list">
-                <li className="menu-item menu-item-type-post_type menu-item-object-page">
-                  <a href="#">Contact</a>
-                </li>
-                <li className="menu-item menu-item-type-taxonomy menu-item-object-category">
-                  <a href="#">News</a>
-                </li>
-                <li className="menu-item menu-item-type-post_type menu-item-object-page">
-                  <a href="#">Careers</a>
-                </li>
-              </ul>
-            </div>
             <div className="footer-menu">
               <h2 className="footer-menu-name">Legal</h2>
               <ul id="menu-legal" className="footer-menu-list">
                 <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-170434">
-                  <a href="#">Privacy Notice</a>
+                  <NavLink to="/term-and-condition">
+
+                  <a>Term And Conditions</a>
+                  </NavLink>
                 </li>
-                <li className="menu-item menu-item-type-post_type menu-item-object-page">
-                  <a href="#">Terms of Use</a>
-                </li>
+                
               </ul>
             </div>
           </div>
           <div className="footer-content-column">
-            <div className="footer-menu">
-              <h2 className="footer-menu-name">Quick Links</h2>
-              <ul id="menu-quick-links" className="footer-menu-list">
-                <li className="menu-item menu-item-type-custom menu-item-object-custom">
-                  <a target="_blank" rel="noopener noreferrer" href="#">
-                    Support Center
-                  </a>
-                </li>
-                <li className="menu-item menu-item-type-custom menu-item-object-custom">
-                  <a target="_blank" rel="noopener noreferrer" href="#">
-                    Service Status
-                  </a>
-                </li>
-                <li className="menu-item menu-item-type-post_type menu-item-object-page">
-                  <a href="#">Security</a>
-                </li>
-                <li className="menu-item menu-item-type-post_type menu-item-object-page">
-                  <a href="#">Blog</a>
-                </li>
-                <li className="menu-item menu-item-type-post_type_archive menu-item-object-customer">
-                  <a href="#">Customers</a>
-                </li>
-                <li className="menu-item menu-item-type-post_type menu-item-object-page">
-                  <a href="#">Reviews</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div className="footer-content-column">
-            <div className="footer-call-to-action">
-              <h2 className="footer-call-to-action-title">Let's Chat</h2>
-              <p className="footer-call-to-action-description">
-                Have a support question?
-              </p>
-              <a className="footer-call-to-action-button button" href="#" target="_self">
-                Get in Touch
-              </a>
-            </div>
-            <div className="footer-call-to-action">
+          <div className="footer-call-to-action">
               <h2 className="footer-call-to-action-title">You Call Us</h2>
               <p className="footer-call-to-action-link-wrapper">
                 <a className="footer-call-to-action-link" href="tel:0124-64XXXX" target="_self">
@@ -112,13 +48,30 @@ const Footer = () => {
               </p>
             </div>
           </div>
+          <div className="footer-content-column">
+            <div className="footer-call-to-action">
+          <h2 className="footer-call-to-action-title">Let's Chat</h2>
+              <p className="footer-call-to-action-description">
+                Have a support question?
+              </p>
+              <NavLink   to="/contact">
+              <a className="footer-call-to-action-button button"  target="_self">
+            
+                Get in Touch
+             
+
+              </a>
+              </NavLink>
+            </div>
+            
+          </div>
          
         </div>
         <div className="footer-copyright">
           <div className="footer-copyright-wrapper">
             <p className="footer-copyright-text">
-              <a className="footer-copyright-link" href="#" target="_self">
-                ©2020. | Designed By: Saurabhinfosys | All rights reserved.
+              <a className="footer-copyright-link" href="https://saurabhinfosys.com/" target="_self">
+                ©2023. | Designed By: Saurabhinfosys | All rights reserved.
               </a>
             </p>
           </div>

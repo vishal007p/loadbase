@@ -1,4 +1,5 @@
-import { lazy } from "react";
+import { Suspense, lazy } from "react";
+import Loading from "../Components/Loading/Loading";
 
 const Home = lazy(() => import('../pages/Home'));
 const About = lazy(() => import('../pages/about/about'));
@@ -12,24 +13,24 @@ export const Router = [
     {
         id: 1,
         path: '/',
-        components: <Home />
+        components:<Suspense  fallback={<Loading />}><Home /></Suspense>  
     },
 
     {
         id: 2,
         path: '/about',
-        components: <About />
+        components: <Suspense  fallback={<Loading />}><About /></Suspense>
     },
 
     {
         id: 3,
         path: '/contact',
-        components: <Contact />
+        components:  <Suspense  fallback={<Loading />}><Contact /></Suspense>
     },
 
     {
         id: 4,
         path:'/term-and-condition',
-        components:<TermAndCondition/>
+        components:<Suspense  fallback={<Loading />}><TermAndCondition/></Suspense>
     }
 ]
