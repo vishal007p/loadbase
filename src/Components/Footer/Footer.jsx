@@ -24,6 +24,30 @@ const Footer = () => {
               </a>
             </div>
           </div>
+
+          <div className="footer-content-column">
+          <div className="footer-call-to-action">
+              <h2 className="footer-call-to-action-title">Quick Links</h2>
+              <p className="footer-call-to-action-link-wrapper">
+                <NavLink to="about">
+
+                <a className="footer-call-to-action-link" href="tel:0124-64XXXX" target="_self">
+                  About Us
+                </a>
+                </NavLink>
+
+              </p>
+
+              <p className="footer-call-to-action-link-wrapper">
+                <NavLink  to="contact">
+                <a className="footer-call-to-action-link" href="tel:0124-64XXXX" target="_self">
+                  Contact Us
+                </a>
+                </NavLink>
+
+              </p>
+            </div>
+          </div>
           <div className="footer-content-column">
             <div className="footer-menu">
               <h2 className="footer-menu-name">Legal</h2>
@@ -38,16 +62,9 @@ const Footer = () => {
               </ul>
             </div>
           </div>
-          <div className="footer-content-column">
-          <div className="footer-call-to-action">
-              <h2 className="footer-call-to-action-title">You Call Us</h2>
-              <p className="footer-call-to-action-link-wrapper">
-                <a className="footer-call-to-action-link" href="tel:0124-64XXXX" target="_self">
-                  0124-64XXXX
-                </a>
-              </p>
-            </div>
-          </div>
+        
+
+          
           <div className="footer-content-column">
             <div className="footer-call-to-action">
           <h2 className="footer-call-to-action-title">Let's Chat</h2>
