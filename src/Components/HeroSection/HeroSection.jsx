@@ -10,13 +10,13 @@ const HeroSection = ({Img,title,des}) => {
   return (
     <Box sx={{ width: '80%', margin: '60px auto' }}>
     <Grid container>
-        <Grid xs={6}>
+        <Grid xs={12}  sm={12}  md={6}>
             <Box  sx={{textAlign:'center'}}>
-                <img src={Img} alt="" style={{ width: '60%' }} />
+                <Box  component="img"  src={Img}  sx={{width:{xs:'100%',sm:'80%', md:'60%'}}} />
             </Box>
         </Grid>
 
-        <Grid xs={6}>
+        <Grid xs={12}  sm={12}  md={6}>
             <Box sx={{ textAlign: 'left', padding: '20px 0px' }}>
                 <h1>{title}</h1>
                 <Box sx={{ width: '100%', height: '100%', display: 'flex', gap: '10px', justifyContent: 'flex-start', marginTop: '15px' }}>
