@@ -1,5 +1,11 @@
-import { Box, Grid } from '@mui/material'
- 
+import { Box, Grid } from '@mui/material';
+
+
+
+
+
+
+
 const HeroSection = ({Img,title,des}) => {
   return (
     <Box sx={{ width: '80%', margin: '60px auto' }}>
@@ -8,7 +14,6 @@ const HeroSection = ({Img,title,des}) => {
             <Box  sx={{textAlign:'center'}}>
                 <img src={Img} alt="" style={{ width: '60%' }} />
             </Box>
-
         </Grid>
 
         <Grid xs={6}>
