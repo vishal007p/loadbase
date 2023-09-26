@@ -1,4 +1,4 @@
-import { Box, Button } from "@mui/material"
+import { Box } from "@mui/material"
 import InputBase from "../InputBase/InputBase";
 import emailjs from '@emailjs/browser';
 import { useRef } from "react";
