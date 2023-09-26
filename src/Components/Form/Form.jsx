@@ -3,8 +3,6 @@ import InputBase from "../InputBase/InputBase";
 import emailjs from '@emailjs/browser';
 import { useRef } from "react";
 
-
-
 const Form = () => {
 
     const form = useRef();
@@ -14,7 +12,7 @@ const Form = () => {
 
         e.preventDefault();
     
-        emailjs.sendForm('service_09ufcaj', 'template_h460kwt', form.current, '1CreWZxeadAhv4SY8')
+        emailjs.sendForm('service_09ufcaj', 'template_h460kwt', form.current, 'dCCUdsPZPB2-oKrid')
           .then((result) => {
               console.log(result.text);
 
@@ -56,7 +54,7 @@ const Form = () => {
              
 
                 <input type="submit" value="Send"  style={{cursor:'pointer', backgroundColor: '#FFFF00', color: 'black', fontWeight: '600', padding: '8px 20px', borderRadius: '20px',border:'none', marginTop:'20px' }}/> 
-                
+                 
                 
                </form>
 
