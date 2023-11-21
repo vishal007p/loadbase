@@ -26,7 +26,7 @@ const sercice = [
         id: 3,
         img: img1,
         title: 'Load Profit Calculator',
-        des: "The drive time calculator tells you how long your trip will take and what is the estimated time of arrival at the destination point"
+        des: "Calculate your trucking company's profit margin on a load before you accept it with Load Base easy to use profit and loss calculator."
     },
 
 
@@ -34,7 +34,7 @@ const sercice = [
     {
         id: 4,
         img: img3,
-        title: 'Drive time Calculato',
+        title: 'Drive time Calculator',
         des: "The drive time calculator tells you how long your trip will take and what is the estimated time of arrival at the destination point"
     },
 ]

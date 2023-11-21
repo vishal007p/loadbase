@@ -37,7 +37,7 @@ const Banner = () => {
                                         style={{ fontSize: '3rem', display: 'inline-block', color: '#FFFF00' }}
                                     />
                                 </Typography>
-                                <Typography variant="body1" sx={{ color: 'white', marginTop: '20px', fontSize: '1.5rem', lineHeight: '35px', textAlign: { xs: 'center', sm: 'center', md: 'left' } }}>
+                                <Typography variant="body1" sx={{ color: 'white',  fontWeight:'bold',  marginTop: '20px', fontSize: '1.5rem', lineHeight: '35px', textAlign: { xs: 'center', sm: 'center', md: 'left' } }}>
                                     Download the NEW Load Base App today and gain access to over 1,000 daily loads to keep
                                     your equipment on the road!
                                 </Typography>

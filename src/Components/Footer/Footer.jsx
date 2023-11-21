@@ -55,7 +55,7 @@ const Footer = () => {
                 <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-170434">
                   <NavLink to="/term-and-condition">
 
-                  <a>Term And Conditions</a>
+                  <a>Private Policy</a>
                   </NavLink>
                 </li>
                 
@@ -71,14 +71,14 @@ const Footer = () => {
               <p className="footer-call-to-action-description">
                 Have a support question?
               </p>
-              <NavLink   to="/contact">
-              <a className="footer-call-to-action-button button"  target="_self">
+              
+              <a className="footer-call-to-action-button button"  target="_self"  href='https://app.textingbase.com/f/YTEyNzkzLW4zMDE1Mw=='>
             
                 Get in Touch
              
 
               </a>
-              </NavLink>
+               
             </div>
             
           </div>

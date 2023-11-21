@@ -38,7 +38,7 @@ const Header = () => {
                             <NavLink onClick={handleShowNavbar} to="/Contact">Contact</NavLink>
                         </li>
                         <li>
-                            <NavLink onClick={handleShowNavbar} to="/term-and-condition"> Term And Conditions </NavLink>
+                            <NavLink onClick={handleShowNavbar} to="/term-and-condition"> Private Policy</NavLink>
                         </li>
                       
                     </ul>
