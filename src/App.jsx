@@ -14,7 +14,6 @@ function App() {
         {
           Router.map((route) =>{
             return(
-
               <Route key={route.id} path={route.path} element={route.components} />
             )
           })
